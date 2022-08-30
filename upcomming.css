@@ -248,6 +248,11 @@ hr {
   .banner_image {
     width: 70%;
   }
+  .banner_image img {
+    width: 80%;
+    position: relative;
+    top: 65px;
+  }
 
   /* match css */
   .blogs_area {
