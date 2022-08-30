@@ -249,7 +249,7 @@ hr {
     width: 70%;
   }
 
-  /* blog css */
+  /* match css */
   .blogs_area {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 15px;
@@ -261,15 +261,16 @@ hr {
     border: 1px solid #e8e8e8;
   }
 
-  .blogs {
+  .matches {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 16px;
   }
-  .blog {
+  .match {
     width: 100%;
   }
-  .blogs_btn {
-    display: none;
+  .flag img {
+    width: 40%;
+    height: 40%;
   }
 
   /* Footer CSS */
@@ -348,40 +349,24 @@ hr {
     justify-content: space-between;
     background: #ffffff;
   }
+  .blog_navigation ul li:first-child {
+    margin-bottom: 0;
+  }
   .menu_item {
     border: 1px solid #e8e8e8;
     margin-bottom: 0;
   }
 
-  .blogs {
+  .matches {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 16px;
   }
-  .blog {
+
+  .match {
     width: 100%;
-  }
-  .blog.last {
-    display: none;
-  }
-  .blogs_btn {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    width: 100%;
-  }
-  .blogs_btn a {
-    background-color: red;
-    color: #ffffff;
-    padding: 16px 25px;
-    cursor: pointer;
-    border-radius: 5px;
-    /* display: inline-block; */
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
   }
 
-  footer {
-    display: none;
+  .footer_area {
+    width: 90%;
   }
 }

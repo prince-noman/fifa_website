@@ -375,8 +375,7 @@ hr {
     font-size: 20px;
     line-height: 23px;
   }
-
-  footer {
-    display: none;
+  .footer_area {
+    width: 90%;
   }
 }
